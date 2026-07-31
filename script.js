@@ -263,6 +263,10 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
     
+    // Alias singular forms of commands for better usability
+    commands.skill = commands.skills;
+    commands.project = commands.projects;
+    
     // Command listener
     terminalInput.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
