@@ -376,11 +376,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     'Accept': 'application/json'
                 },
                 body: JSON.stringify({
-                    name: name,
-                    email: email,
-                    message: message,
+                    Name: name,
+                    Email: email,
+                    Message: message,
+                    _replyto: email,
                     _subject: `New Portfolio Message from ${name}`,
-                    _captcha: "false"
+                    _captcha: "false",
+                    _template: "table"
                 })
             });
             
