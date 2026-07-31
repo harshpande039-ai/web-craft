@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "<span class='text-accent'>[ESTABLISH DIRECT SOCKET CONNECTION]</span>",
             "  Endpoint (Email): wwbcraft@gmail.com",
             "  Network Node: Github (https://github.com)",
-            "  Professional Node: LinkedIn (https://linkedin.com)",
+            "  Professional Node: LinkedIn (https://www.linkedin.com/in/web-craft-4b0a22426)",
             "  Use the form below to transmit directly via visual payload."
         ],
         neofetch: [
