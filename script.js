@@ -3,6 +3,12 @@
  * Contains Custom Cursor, Particle Canvas, Typewriter, Terminal Shell, Scroll Reveals, Contact Handshake
  */
 
+import opulentacresImg from './assets/opulentacres.png';
+import growsalesImg from './assets/growsales.png';
+import fujialpineImg from './assets/fujialpine.png';
+import elpatioImg from './assets/elpatio.png';
+import aetheraiImg from './assets/aetherai.png';
+
 document.addEventListener('DOMContentLoaded', () => {
 
     /* ==========================================================================
@@ -421,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
         opulentacres: {
             title: "Opulent Acres",
             tag: "Luxury Real Estate",
-            image: "assets/opulentacres.png",
+            image: opulentacresImg,
             desc: "<p>Opulent Acres is an ultra-luxury real estate and architectural developments portal. It showcases a premium portfolio of high-end sky residences, waterfront estates, and commercial Plaza plazas through an immersive digital experience.</p><p>Built on React and modular CSS, it features buttery-smooth kinetic momentum scrolling powered by Lenis and a bespoke interactive 3D Orbit Gallery animated via GSAP. Users can filter listings by location, type, budget, and construction status seamlessly via full-screen glassmorphic overlays.</p>",
             tech: ["React", "TypeScript", "GSAP", "Lenis Scroll", "Vercel"],
             features: [
@@ -436,7 +442,7 @@ document.addEventListener('DOMContentLoaded', () => {
         growsales: {
             title: "Grow.sales",
             tag: "B2B Growth Engine",
-            image: "assets/growsales.png",
+            image: growsalesImg,
             desc: "<p>Grow.sales is a high-performance conversion landing system built for B2B sales and marketing outsourcing. The platform enables ambitious companies to outsource lead generation, pipeline building, and outbound revenue campaigns to premium dedicated teams.</p><p>Designed with modern high-contrast typography, interactive service matrices, and conversion-optimized forms, the site integrates custom micro-animations and smooth scroll triggers to maintain professional credibility and maximize client acquisition rates.</p>",
             tech: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Analytics API"],
             features: [
@@ -451,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fujialpine: {
             title: "Fuji Alpine AI",
             tag: "Meteorological Hub",
-            image: "assets/fujialpine.png",
+            image: fujialpineImg,
             desc: "<p>Fuji Alpine AI is an interactive environmental exploration platform designed for the Mt. Fuji Meteorological Observatory (3,776m). It provides immersive, real-time meteorological reports, sub-zero weather guide telemetry, and alpine climate simulations of Japan's highest peak.</p><p>Built on React and Tailwind, the interface focuses on high-contrast typography, interactive environmental sensors, and rich geospatial data visualization overlays to assist high-altitude alpine researchers and climate analysts.</p>",
             tech: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Geospatial API"],
             features: [
@@ -466,7 +472,7 @@ document.addEventListener('DOMContentLoaded', () => {
         elpatio: {
             title: "El Patio Coffee",
             tag: "E-Commerce Service",
-            image: "assets/elpatio.png",
+            image: elpatioImg,
             desc: "<p>El Patio Coffee is an elegant, premium digital storefront engineered for a craft coffee roastery. It translates physical sensory experiences—origin, altitude, roast profiles, and notes—into an interactive and responsive visual environment.</p><p>The system features dynamic batch descriptions, an interactive roast-level slider, and a seamless client-side cart system that handles quantity updates, totals, and validations dynamically. Optimized with a sub-second load time, it showcases custom micro-interactions and premium typography to maintain brand prestige.</p>",
             tech: ["HTML5", "Vanilla CSS", "JavaScript", "Render Hosting"],
             features: [
@@ -481,7 +487,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aetherai: {
             title: "Aether AI",
             tag: "AI Agency Portal",
-            image: "assets/aetherai.png",
+            image: aetheraiImg,
             desc: "<p>Aether AI is a premium digital agency landing environment and interactive sandbox dedicated to engineering autonomous intelligence models, custom conversational assistants, and workflows.</p><p>Built with minimalist Apple-like aesthetics, it integrates a real-time responsive chatbot console emulator, a dynamic project cost calculator with custom service parameters, and fully-responsive animated bento grids to deliver structured, high-conversion layouts.</p>",
             tech: ["HTML5", "Vanilla CSS", "JavaScript", "Lenis Scroll", "Render"],
             features: [
